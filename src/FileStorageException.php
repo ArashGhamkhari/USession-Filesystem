@@ -1,0 +1,13 @@
+<?php
+
+namespace USession\Filesystem;
+
+class FileStorageException extends \Exception
+{
+    const ERR_STORAGE_DIRECTORY_IS_NOT_SET = 100;
+    const ERR_STORAGE_DIRECTORY_IS_NOT_DIR = 101;
+    const ERR_UNABLE_TO_CREATE_STORAGE_DIRECTORY = 102;
+    const ERR_UNABLE_TO_CREATE_SESSION_DIRECTORY = 103;
+    const ERR_STORAGE_DIRECTORY_IS_NOT_READABLE = 104;
+    const ERR_STORAGE_DIRECTORY_IS_NOT_WRITABLE = 105;
+}
