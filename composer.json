@@ -1,0 +1,29 @@
+{
+  "name": "usession/filesystem",
+  "description": "Filesystem driver for USession.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arash Ghamkhari",
+      "email": "dev@ghamkhari.com"
+    }
+  ],
+  "require": {
+    "usession/usession": "^1.0.0",
+    "opt/opt": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "USession\\Filesystem\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "USession\\Filesystem\\Tests\\": "tests"
+    }
+  }
+}
